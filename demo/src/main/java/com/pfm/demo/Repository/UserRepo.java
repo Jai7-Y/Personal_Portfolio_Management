@@ -8,5 +8,4 @@ import com.pfm.demo.Model.User;
 public interface UserRepo extends JpaRepository<User,Integer>{
     
     User findbyEmailId(@Param("email")String email);
-
 }
